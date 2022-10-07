@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="container justify-between fixed bottom-0 bg-white flex mx-auto lg:px-10 rounded-t-2xl border-t py-3 px-6 shadow text-center md:hidden z-40"
+      class="container justify-between fixed bottom-0 bg-white flex mx-auto lg:px-10 rounded-t-2xl border-t py-3 px-6 shadow text-center z-40"
     >
       <nuxt-link to="/" class="">
         <svg
