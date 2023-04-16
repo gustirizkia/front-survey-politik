@@ -49,7 +49,7 @@ export default {
     async fetchKabupaten() {
       await this.$axios
         .get(
-          'http://dev.farizdotid.com/api/daerahindonesia/kota?id_provinsi=32'
+          'https://dev.farizdotid.com/api/daerahindonesia/kota?id_provinsi=32'
         )
         .then((res) => {
           this.kabupatens = res.data.kota_kabupaten
