@@ -27,5 +27,8 @@
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.1.8"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
